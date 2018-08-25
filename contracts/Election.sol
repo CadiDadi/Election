@@ -1,22 +1,23 @@
 pragma solidity 0.4.24;
 
+import "./SafeMath.sol";
+
 contract Election {
-    // Model a Candidate
+    // Candidate
     struct Candidate {
         uint id;
         string name;
         uint voteCount;
     }
 
-    // Store accounts that have voted
+    // Voter accts
     mapping(address => bool) public voters;
-    // Store Candidates
-    // Fetch Candidate
+    // Candidates
     mapping(uint => Candidate) public candidates;
-    // Store Candidates Count
+    // Candidates Count
     uint public candidatesCount;
 
-    // voted event
+    // voted
     event votedEvent (
         uint indexed _candidateId
     );
@@ -32,16 +33,16 @@ contract Election {
     }
 
     function vote (uint _candidateId) public {
-        // require that they haven't voted before
+        // only 1 vote
         require(!voters[msg.sender]);
 
-        // require a valid candidate
+        // candidate required
         require(_candidateId > 0 && _candidateId <= candidatesCount);
 
-        // record that voter has voted
+        // record vote
         voters[msg.sender] = true;
 
-        // update candidate vote Count
+        // update vote Count
         candidates[_candidateId].voteCount ++;
 
         // trigger voted event
