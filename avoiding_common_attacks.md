@@ -14,9 +14,9 @@ Two types of Race Condition common attacks:
 Calling external contracts passes control flow to them. The called contract may end up calling the smart contract function again in a recursive manner.
 
 Prevention:
-•	Remove the external call if possible.
-•	Implement internal work before making the external function call. 
-•	Use the withdrawal design pattern and separate the contract accounting logic and the transfer logic.
+</br>•	Remove the external call if possible.
+</br>•	Implement internal work before making the external function call. 
+</br>•	Use the withdrawal design pattern and separate the contract accounting logic and the transfer logic.
 
 ### 2. Cross-function - Race Condition
 
