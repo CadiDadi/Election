@@ -1,4 +1,4 @@
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
 import "./SafeMath.sol";
 
@@ -14,8 +14,13 @@ contract Election {
     mapping(address => bool) public voters;
     // Candidates
     mapping(uint => Candidate) public candidates;
-    // Candidates Count
+    // Candidates Count    
     uint public candidatesCount;
+
+    // Prevent overflow/underflow issues
+    using SafeMath for uint256;
+    // Circuit Breaker
+    bool stopped;
 
     // voted
     event votedEvent (
@@ -47,5 +52,11 @@ contract Election {
 
         // trigger voted event
         emit votedEvent(_candidateId);
+    }
+
+    // Circuit Breaker - stop execution 
+    modifier stop_if_emergency() {
+    require(!stopped);
+    _;
     }
 }

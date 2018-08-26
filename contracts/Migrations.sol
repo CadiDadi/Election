@@ -8,15 +8,15 @@ contract Migrations {
     if (msg.sender == owner) _;
   }
 
-  constructor () {
+  constructor () public {
     owner = msg.sender;
   }
 
-  function setCompleted(uint completed) {
+  function setCompleted(uint completed) public {
     last_completed_migration = completed;
   }
 
-  function upgrade(address new_address) {
+  function upgrade(address new_address) public {
     Migrations upgraded = Migrations(new_address);
     upgraded.setCompleted(last_completed_migration);
   }

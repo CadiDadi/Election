@@ -19,7 +19,7 @@
 7. Open server ```npm run dev```  This should open a browser automatically. If not, open a browser and go to; ```localhost:3000```
 
 ## Web Browser
-1. If browser did not launch upon CLI #2 Step 7: ```npm run dev```, open appropriate browser and go to: ```localhost:3000```
+1. If browser did not launch upon CLI #2 Step 7: ```npm run dev```, open appropriate browser and go to: ```LocalHost:3000```
 2. Open MetaMask: ```LocalHost 8545``` or ```Rinkeby```
 
 
