@@ -126,7 +126,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 97,
-        "sourceUnit": 194,
+        "sourceUnit": 247,
         "src": "25:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -835,7 +835,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 208,
+                              "referencedDeclaration": 261,
                               "src": "812:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -884,10 +884,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        211,
-                        212
+                        264,
+                        265
                       ],
-                      "referencedDeclaration": 211,
+                      "referencedDeclaration": 264,
                       "src": "796:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1042,10 +1042,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        211,
-                        212
+                        264,
+                        265
                       ],
-                      "referencedDeclaration": 211,
+                      "referencedDeclaration": 264,
                       "src": "865:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1102,7 +1102,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 208,
+                          "referencedDeclaration": 261,
                           "src": "966:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1384,7 +1384,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 97,
-        "sourceUnit": 194,
+        "sourceUnit": 247,
         "src": "25:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2093,7 +2093,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 208,
+                              "referencedDeclaration": 261,
                               "src": "812:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -2142,10 +2142,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        211,
-                        212
+                        264,
+                        265
                       ],
-                      "referencedDeclaration": 211,
+                      "referencedDeclaration": 264,
                       "src": "796:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2300,10 +2300,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        211,
-                        212
+                        264,
+                        265
                       ],
-                      "referencedDeclaration": 211,
+                      "referencedDeclaration": 264,
                       "src": "865:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2360,7 +2360,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 208,
+                          "referencedDeclaration": 261,
                           "src": "966:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2621,13 +2621,13 @@
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
   "networks": {
-    "1535129972063": {
+    "1535296148445": {
       "events": {},
       "links": {},
-      "address": "0xb913e1f84351702dc7f8ad0fb95faf06d38bf929",
-      "transactionHash": "0x07df4d3ab98b28c7b3ed6df61e7b10f7e539ec9d41d22100db16fff1fce20cdf"
+      "address": "0x5c5e6fa736aa4ebee6a1e677d617a2fcaf22a950",
+      "transactionHash": "0xbaec30698cb7c6ab7d578f1d35354fc01e2b37f6b9643b7800c1c166cafcd895"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-08-25T15:45:57.018Z"
+  "updatedAt": "2018-08-26T15:13:28.833Z"
 }
