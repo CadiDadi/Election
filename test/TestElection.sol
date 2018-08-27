@@ -4,6 +4,6 @@ import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
 import "../contracts/Election.sol";
 
-contract TestElection{
+contract TestElection {
     
 }
