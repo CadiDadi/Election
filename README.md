@@ -38,4 +38,5 @@ Run: ```ganache-cli```
 2. Connect MetaMask to Rinkeby Network
 3. dApp interaction operates similar to Local interaction
 
+---
 ##### Please contact me if you have any questions regarding the operation of the dApp. Thanks, ScottAshcroft@gmail.com
