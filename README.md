@@ -14,7 +14,10 @@ A dApp to allow users to vote for candidates
 2. Create account using Import Seed - use the mnemonic from your running ```ganache-cli```
 3. Change network to: ```LocalHost 8545``` 
 
-#### B. CLI 1:
+#### B. CLI 1: 
+Run: ```ganache-cli```
+
+#### C. CLI 2:
 1. Clone project: ```git clone https://github.com/CadiDadi/Election.git```
 2. Enter project: ```cd Election```
 3. Install NPM: ```npm install```
