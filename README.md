@@ -1,8 +1,8 @@
-# Election
+# Election Decentralized Application (dApp)
 
 A dApp to allow users to vote for candidates
 
-### Local Setup & Testing
+### Local Setup, Testing, & Interaction
 
 #### Requirements
 1. Node.js installed: [Node.js](https://nodejs.org/en/)
@@ -31,5 +31,10 @@ A dApp to allow users to vote for candidates
 2. MetaMask will open to complete the transaction
 3. The candidate voting status will reflect the change once the transaction is processed.
 
+### Rinkeby Setup & Interaction
 
-##### Please contact me if you have any problems with the operation of the dApp. Thanks, ScottAshcroft@gmail.com
+1. The dApp is hosted:  https://cadidadi.github.io/Election/
+2. Connect MetaMask to Rinkeby Network
+3. dApp interaction operates similar to Local interaction
+
+##### Please contact me if you have any questions regarding the operation of the dApp. Thanks, ScottAshcroft@gmail.com
