@@ -23,7 +23,7 @@ Run: ```ganache-cli```
 3. Install NPM: ```npm install```
 4. Compile contracts: ```truffle compile```
 5. Test contracts: ```truffle test```
-6. Migrate contracts: ```truffle migrate --network rinkeby```
+6. Migrate contracts: ```truffle migrate```
 7. Open server ```npm run dev```  This should open a browser automatically. If not, open a browser and go to; ```localhost:3000```
 
 #### C. dApp Interaction
