@@ -1,26 +1,3 @@
-# Deployed Addresses
+## Deployed Contract Address on Rinkeby
 
-## Rinkeby TestNet
-
-```bash
-
-truffle migrate --network rinkeby
-
-Using network 'rinkeby'.
-
-Running migration: 1_initial_migration.js
-  Deploying Migrations...
-  ... 0xa03e87a857f4acfc57027c249b56623adc09860291e6a7cdf43c3c4035d3af62
-  Migrations: 0x73a2b7c598b2f9e1ff785b0fcd8cea951dbd0cc6
-Saving successful migration to network...
-  ... 0x9bacb07618a6efc79e4c7f06fc37dd53eb2d4b5e88c3e1cb368531aadbb36100
-Saving artifacts...
-Running migration: 2_deploy_contracts.js
-  Deploying Election...
-  ... 0xd6825e9e3109a99fb170aadd7ee027279e1fd1d89ac39275c8e81172b40b71be
-  Election: 0x8dd2bac9f10cffac1f47c6faebc65d3e260b5a3f
-Saving successful migration to network...
-  ... 0x768e41aebd8d92a0ba8a6c5d6e1bd36a9c36b8a3a530d4bf50bc3afa395bc209
-Saving artifacts... 
-
-```
+### Election.sol - 0x8DD2bAC9F10cfFac1f47C6FAebC65d3E260b5a3f
