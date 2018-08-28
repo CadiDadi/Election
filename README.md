@@ -2,6 +2,7 @@
 
 A dApp to allow users to vote for candidates
 
+---
 ### Local Setup, Testing, & Interaction
 
 #### Requirements
@@ -32,6 +33,7 @@ Run: ```ganache-cli```
 2. MetaMask will open to complete the transaction
 3. The candidate voting status will reflect the change once the transaction is processed.
 
+---
 ### Rinkeby Setup & Interaction
 
 1. The dApp is hosted:  https://cadidadi.github.io/Election/
