@@ -27,7 +27,7 @@ Run: ```ganache-cli```
 6. Migrate contracts: ```truffle migrate```
 7. Open server ```npm run dev```  This should open a browser automatically. If not, open a browser and go to; ```localhost:3000```
 
-#### C. dApp Interaction
+#### D. dApp Interaction
 
 1. Select a candidate and submit vote.
 2. MetaMask will open to complete the transaction
