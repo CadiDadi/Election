@@ -33,10 +33,5 @@ Run: ```ganache-cli```
 2. MetaMask will open to complete the transaction
 3. The candidate voting status will reflect the change once the transaction is processed.
 
----
-### Rinkeby Setup & Interaction
 
-1. The dApp is hosted:  https://cadidadi.github.io/Election/
-2. Connect MetaMask to Rinkeby Network
-3. dApp interaction operates similar to Local interaction
 
